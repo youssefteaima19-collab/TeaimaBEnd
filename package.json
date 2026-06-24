@@ -1,0 +1,31 @@
+{
+  "name": "teaima-backend",
+  "version": "1.0.0",
+  "description": "Backend for Teaima Store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.17.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "migrate-mongo": "^14.0.7",
+    "mongodb": "^7.1.1",
+    "mongoose": "^7.8.9",
+    "msnodesqlv8": "^5.1.9",
+    "mssql": "^12.3.1",
+    "multer": "^2.1.1",
+    "mysql2": "^3.22.1",
+    "node-cron": "^4.2.1",
+    "sequelize": "^6.37.8",
+    "tedious": "^19.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
