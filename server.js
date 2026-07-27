@@ -10,7 +10,6 @@ const path = require("path");
 const fs = require("fs");
 
 app.use("/uploads", express.static("uploads"));
-//fdkd
 
 // التأكد من وجود مجلد uploads (إن لم يكن موجوداً)
 if (!fs.existsSync("uploads")) {
