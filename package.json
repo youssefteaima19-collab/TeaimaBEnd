@@ -17,7 +17,6 @@
     "migrate-mongo": "^14.0.7",
     "mongodb": "^7.1.1",
     "mongoose": "^7.8.9",
-    "msnodesqlv8": "^5.1.9",
     "mssql": "^12.3.1",
     "multer": "^2.1.1",
     "mysql2": "^3.22.1",
